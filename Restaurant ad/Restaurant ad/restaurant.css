@@ -1,0 +1,140 @@
+body, h1, h2, h3, p, ul, li, figure, video {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: calibri, sans-serif;
+    background-color: #f5f0e1; /* Light brown background */
+    color: #3d302b; /* Dark brown text color */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #7e6d63; /* Medium brown header background */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #d7c5b9; /* Light brown section background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #7e6d63; /* Medium brown heading color */
+}
+
+.restaurant {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.restaurant h3 {
+    color: #7e6d63; /* Medium brown restaurant name color */
+}
+
+.restaurant p {
+    margin-bottom: 10px;
+}
+.side{
+    display: inline-block;
+}
+.cafedeli{
+    display: inline-block;
+}
+
+.restaurant img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #7e6d63; /* Medium brown footer background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.java img{
+    max-width: 50%; /* Ensure images don't exceed their container's width */
+    height: 50%;
+}
+.canopy img{
+    max-width: 40%; /* Ensure images don't exceed their container's width */
+    height: 40%;
+}
+.artcafe img{
+    max-width: 50%; /* Ensure images don't exceed their container's width */
+    height: 30%;
+}
+.midland img{
+    max-width: 50%; /* Ensure images don't exceed their container's width */
+    height: 50%;
+}
+.bigsquare img{
+    max-width: 50%; /* Ensure images don't exceed their container's width */
+    height: 50%;
+}
+.cafedeli img{
+    display: inline-block;
+    max-width: 50%; /* Ensure images don't exceed their container's width */
+    height: 50%;
+}
+.urbanburger img{
+    max-width: 50%; /* Ensure images don't exceed their container's width */
+    height: 50%;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+nav ul li a:hover {
+    color: palevioletred; /* Change color on hover */
+}
